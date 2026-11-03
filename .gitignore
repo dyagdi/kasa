@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Generated output
+dist/
+dist-server/
+coverage/
+.vite/
+
+# Environment and local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Personal Kasa exports and local scratch data
+kasa-yedek-*.json
+backups/
+exports/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
